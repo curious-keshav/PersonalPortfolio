@@ -8,15 +8,15 @@ import profile1 from "../../public/images/articles/leetcode.png"
 import profile2 from "../../public/images/articles/codeforces.png"
 import profile3 from "../../public/images/articles/codechef.png"
 import profile4 from "../../public/images/articles/hackerrank.png"
-import hackathon from "../../public/images/articles/hackathon.png"
-import star5 from "../../public/images/articles/5star.png"
-import flipkart from "../../public/images/articles/flipkart.png"
-import quark1 from "../../public/images/articles/quark.png"
-import quark2 from "../../public/images/articles/quark2.png"
-import dean from "../../public/images/articles/dean.png"
-import googleitsupport from "../../public/images/articles/googleitsupport.png"
-import virasat from "../../public/images/articles/virasat.png"
-import gait from "../../public/images/articles/gait.png"
+// import hackathon from "../../public/images/articles/hackathon.png"
+// import star5 from "../../public/images/articles/5star.png"
+// import flipkart from "../../public/images/articles/flipkart.png"
+// import quark1 from "../../public/images/articles/quark.png"
+// import quark2 from "../../public/images/articles/quark2.png"
+// import dean from "../../public/images/articles/dean.png"
+// import googleitsupport from "../../public/images/articles/googleitsupport.png"
+// import virasat from "../../public/images/articles/virasat.png"
+// import gait from "../../public/images/articles/gait.png"
 
 import { motion, useMotionValue } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -121,7 +121,7 @@ const Achievement = () => {
                     <ul>
                         <NormalAchievements
                             title={"Achieved 2nd place out of 42 teams in the Ultra Hacx hackathon"}
-                            img={hackathon}
+                            // img={hackathon}
                             date={"November, 2022"}
                             link={"https://www.linkedin.com/posts/keshav-verma-4331091b7_lpu-metamask-blockchain-activity-7000017359612600320-qO4T?utm_source=share&utm_medium=member_desktop"}
                         />
@@ -129,49 +129,49 @@ const Achievement = () => {
                             title={"5 Star in C++ and Python on Hackerank"}
                             date={"March, 2023"}
                             link={"https://www.hackerrank.com/curious_keshav51?hr_r=1"}
-                            img={star5}
+                            // img={star5}
                         />
                         <NormalAchievements
                             title={"Ranked in the top 5% out of 3 lakh+ teams in the Flipkart Grid 5.0"}
                             date={"August, 2023"}
                             link={"https://unstop.com/hackathons/flipkart-grid-50-software-development-track-flipkart-grid-50-flipkart-686157"}
-                            img = {flipkart}
+                            // img = {flipkart}
                         />
                         <NormalAchievements
                             title={"Google IT Support Professional Certified"}
                             date={"March, 2021"}
                             link={"https://www.coursera.org/professional-certificates/google-it-support"}
-                            img = {googleitsupport}
+                            // img = {googleitsupport}
                         />
                         <NormalAchievements
                             title={"Quark Codejam2023: Attained a rank of 154 out of 4000+ in the prelims round"}
                             date={"March, 2023"}
                             link={"/"}
-                            img = {quark1}
+                            // img = {quark1}
                         />
                         <NormalAchievements
                             title={"Quark Codejam2023: Ranked 10 out of 60+ participants in the second round held offline at BITS Pilani, Goa"}
                             date={"April, 2023"}
                             link={"https://www.linkedin.com/feed/update/urn:li:activity:7049441978391928832/"}
-                            img = {quark2}
+                            // img = {quark2}
                         />
                         <NormalAchievements
                             title={"Recognized as part of the top 10% achievers throughout my entire degree program."}
                             date={"August, 2023"}
                             link={"https://ums.lpu.in/lpuums/"}
-                            img = {dean}
+                            // img = {dean}
                         />
                         <NormalAchievements
                             title={"First runner up in Virasat-E-Udaan by SCSE-LPU"}
                             date={"October, 2020"}
                             link={"https://www.linkedin.com/posts/keshav-verma-4331091b7_ppt-lpu-coabrcurriculars-activity-6738167838982463488-ASLz?utm_source=share&utm_medium=member_desktop"}
-                            img = {virasat}
+                            // img = {virasat}
                         />
                         <NormalAchievements
                             title={"Scored 732 out of 990 in the GAIT (Global Assessment of Information Technology) exam. "}
                             date={"May, 2023"}
                             link={"https://www.gait.org/en/personal/"}
-                            img = {gait}
+                            // img = {gait}
                         />
                         <NormalAchievements
                             title={"School Rank 1 in IMO 2020 (International Mathematical Olympiad) exam."}
