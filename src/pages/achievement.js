@@ -179,7 +179,7 @@ const Achievement = () => {
                             link={"/"}
                         />
                         <NormalAchievements
-                            title={"First runner up in Badminton'20 | North Zone Level | Delhi, IN "}
+                            title={"First runner up in Badminton 2020 | North Zone Level | Delhi, IN "}
                             date={"August, 2018"}
                             link={"/"}
                         />
