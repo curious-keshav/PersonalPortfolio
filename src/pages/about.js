@@ -40,7 +40,7 @@ const about = () => {
                 <title> Keshav Verma | About Page</title>
                 <meta name="description" content="any description" />
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
             <main className='flex w-full flex-col items-center justify-center dark:text-light '>
                 <Layout className='!pt-16'>
                     <AnimatedText text="Passion Fuels Purpose!" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8 ' />
@@ -48,16 +48,18 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
-                                - Hi, I'm Keshav Verma, a software developer, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+                                - Hi, I&apos;m Keshav Verma, a software developer, a web developer and UI/UX designer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. With 2 years of experience in the field. I am always looking for
                                 new and innovative ways.
                             </p>
+
                             <p className='font-medium'>
                                 - Blessed with an inquisitive mind and a determined attitude, I take
-                                challenges head-on and never sette till I get the job done! An effcient
-                                team member and an able leader. I'm currently in my last year
+                                challenges head-on and never settle till I get the job done! An efficient
+                                team member and an able leader. I&apos;m currently in my last year
                                 pursuing Bachelor in Technology, Information Technology.
                             </p>
+
 
                         </div>
 

@@ -1,4 +1,4 @@
-import { useState, useRef, Suspense } from "react";
+import { useState, useRef, Suspense, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random";
@@ -14,24 +14,15 @@ const Stars = (props) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
-  // const starColor = darkMode ? "white" : "black";
-  console.log("heyyyyyyyyyyyyyy");
-  const preferDarkQuery = '(prefers-color-scheme: dark)';
-  const userPref = window.localStorage.getItem('theme');
-
-  const mediaQuery = window.matchMedia(userPref);
-  const colorPref = (mediaQuery.media==="dark"?"white":"black")
-  
-console.log(mediaQuery.media);
-console.log("yooooooooooooooooooooo");
-console.log(document.documentElement.scrollHeight);
-const maxHeight = document.documentElement.scrollHeight;
+ 
+  console.log("Heyyyyyyyyyyyyyyyyyyy");
+  console.log(isDarkModeEnabled());
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color={colorPref}
+          color="white"
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}
