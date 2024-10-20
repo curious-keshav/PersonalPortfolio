@@ -64,13 +64,17 @@ const NavBar = () => {
       </button>
       
       <div className='w-full flex justify-between items-center xl:hidden'>
+      <div className=''><Logo /></div>
+
         <nav>
           <CustomLink href="/" title="HOME" className='mr-4' />
           <CustomLink href="/about" title="ABOUT" className='mx-4' />
           <CustomLink href="/projects" title="PROJECTS" className='mx-4' />
           <CustomLink href="/achievement" title="ACHIEVEMENTS" className='mx-4' />
-          <CustomLink href="/contact" title="CONTACT" className='ml-4' />
+          <CustomLink href="/contact" title="CONTACT" className='mx-4' />
+          <CustomLink href="/blog" title="BLOG" className='ml-4' />
         </nav>
+
 
         <nav className='flex items-center justify-center flex-wrap'>
           <motion.a href="https://twitter.com/K4Verma" target={"_blank"} whileTap={{ scale: 0.9 }} whileHover={{ y: -2 }} className="w-6 mr-3"><TwitterIcon /></motion.a>
@@ -94,6 +98,7 @@ const NavBar = () => {
             <CustomMobileLink href="/projects" title="PROJECTS" className='' toggle={handleClick} />
             <CustomMobileLink href="/achievement" title="ACHIEVEMENTS" className='' toggle={handleClick} />
             <CustomMobileLink href="/contact" title="CONTACT" className='' toggle={handleClick} />
+            <CustomMobileLink href="/blog" title="BLOG" className='' toggle={handleClick} />
           </nav>
 
           <nav className='flex items-center justify-center flex-wrap mt-2'>
@@ -110,7 +115,7 @@ const NavBar = () => {
         </motion.div>
       )}
       
-      <div className='absolute left-[50%] top-2 translate-x-[-50%]'><Logo /></div>
+      {/* <div className='absolute left-[50%] top-2 translate-x-[-50%]'><Logo /></div> */}
     </header>
   )
 }
